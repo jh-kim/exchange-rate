@@ -3,10 +3,9 @@
 # Exchangerate
 
 
-
 ## Synopsis
 
-Currency conversion
+The Simple Currency conversion
 
 The source of exchange rates is [http://www.fxexchangerate.com](http://www.fxexchangerate.com)
 
