@@ -4,17 +4,24 @@
 
 
 
-## Usage
+## Synopsis
 
+Currency conversion
 
+The source of exchange rates is [http://www.fxexchangerate.com](http://www.fxexchangerate.com)
 
-## Developing
+## Example
 
+/api/xchange?from=[code of source country(required)]&to=[code of destination country]&amount=[amount of source country]
 
+code of country is [countries.json](https://github.com/jh-kim/exchange-rate/blob/master/app/countries.json)
 
-### Tools
+* 10USD to JPY
+http://depository.pe.kr:8080/api/xchange?from=usd&to=jpy&amount=10
 
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
+* 1USD to All Countries
+http://depository.pe.kr:8080/api/xchange?from=usd
 
-Nodeclipse is free open-source project that grows with your contributions.
+* 100USD to All Countries
+http://depository.pe.kr:8080/api/xchange?from=usd&amount=100
+
